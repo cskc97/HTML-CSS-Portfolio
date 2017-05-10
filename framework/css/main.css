@@ -71,3 +71,6 @@
 .col-12 {
     width: 100%;
 }
+
+/* overflow: auto; for scrolling */
+/* media queries - change css properties depending on device, screen size and color */

@@ -1,7 +1,42 @@
+/** {
+   outline: 1px solid red !important;
+}*/
+*{
+
+box-sizing: border-box;
+
+}
+
+.title{
+	font-family: Helvetica;
+	background-color: #33BEBE; 
+	margin-bottom: 50px;
+	color: white;
+	size: 100px;
+	min-height: 150px;
+	
+	
+
+}
+
+.app{
+	display: flex;
+}
+
+
+.screenshot{
+	max-width: 460px;
+
+}
+
 .description{
-	color: red;
+	
 	font-style: oblique;
 	font-weight: bold;
+	max-width: 705px;
+	margin-left: 30px;
+	color: #7C8B88;
+
 }
 p{
 	color: blue;

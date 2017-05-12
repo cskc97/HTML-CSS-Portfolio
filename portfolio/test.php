@@ -7,6 +7,7 @@
 	<title>Testing Stuff</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	
 </head>
 <body>
@@ -32,11 +33,13 @@
 
 	<div class="row">
 		<div class="col-md-12">
+            <h2>PROJECTS</h2>
+
 		</div>
 	</div>
 
-<!--    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">-->
-<!--            <div class="carousel-inner" role="listbox">-->
+    <div class="row">
+
 
             <?php
 
@@ -48,17 +51,8 @@
 
             ?>
 
-<!--            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">-->
-<!--                <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--                <span class="sr-only">Previous</span>-->
-<!--            </a>-->
-<!--            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">-->
-<!--                <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--                <span class="sr-only">Next</span>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--	-->
-	
+
+    </div>
 
 
 

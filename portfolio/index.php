@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
 
 	<div class="row" >
 
@@ -30,6 +30,20 @@
 
 
 	</div>
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <img class="img-responsive" src="images/header.jpg">
+            <h1 id="overimage">Santhoshkrishnachaitanya Chelikavada</h1>
+            <h3 id="overimage"> Human Being </h3>
+
+
+
+
+        </div>
+
+    </div>
 
 	<div class="row">
 		<div class="col-md-12">

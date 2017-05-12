@@ -8,43 +8,33 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="materialize/materialize/css/materialize.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	
 </head>
 <body>
 
-<div class="container">
-
-	<div class="row" >
+<div class="container-fluid">
 
 
-		<div class="col-md-12 text-right">
-
-		<h2>Santhoshkrishnachaitanya Chelikavada</h2>
-
-
-		</div>
-
-
-	</div>
-
-    <div class="row">
-        <div class="col-md-12">
-
-            <img class="img-responsive" src="images/header.jpg">
-            <h3 id="overimage">Santhoshkrishnachaitanya Chelikavada</h3>
-
-
-
-
-
+<div class="row">
+    <div class="col-md-12">
+    <div class="carousel-item">
+        <img class="img-responsive" src="images/header3.jpg" alt="cover image">
+        <div class="carousel-caption d-none d-md-block">
+            <h3>Santhoshkrishnachaitanya Chelikavada</h3>
+            <p>Entrepreneur, Developer and Student</p>
         </div>
-
     </div>
+    </div>
+</div>
+
+
+
 
 	<div class="row">
 		<div class="col-md-12">
-            <h2>PROJECTS</h2>
+            <h5>PROJECTS</h5>
 
 		</div>
 	</div>

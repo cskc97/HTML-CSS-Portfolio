@@ -39,10 +39,19 @@ class ProjectsDB
 
            echo "
            <div class=\"col-md-3\"> 
+                <div class=\"card blue-grey darken-1 small\">
+                    <div class=\"card-content white-text\">
+                    <span class=\"card-title\">".$row["name"]."</span>
+                    <p>".$row["description"]."</p> 
+                    </div>
+                </div>
+           </div>";
+                    
+                    
+                    
+                    
            
-           <h1>".$row["name"]."</h1>".
-               "<h3>".$row["description"]."</h3>
-               </div>";
+          
            
 
             
@@ -61,6 +70,10 @@ class ProjectsDB
 
 }
 
+
+/* <h1>\".$row[\"name\"].\"</h1>\".
+               \"<h3>\".$row[\"description\"].\"</h3>
+               </div>\"; */
 
 
 

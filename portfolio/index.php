@@ -22,8 +22,8 @@
         <div class="carousel-item" data-ride="carousel">
             <img class="img-responsive" src="images/header3.jpg" alt="cover image">
             <div class="carousel-caption d-none d-md-block" style=".carousel-caption{text-align: center;">
-                <h3>Santhoshkrishnachaitanya Chelikavada</h3>
-                <p>Entrepreneur, Developer and Student</p>
+                <h3 id="title">Santhoshkrishnachaitanya Chelikavada</h3>
+
             </div>
         </div>
         </div>
@@ -52,25 +52,7 @@
 
             ?>
 
-<!--            Just for testing purposes-->
-            <?php
 
-            require_once ("projects.php");
-            $projects = new ProjectsDB();
-
-            $projects->getProjects();
-
-
-            ?>
-            <?php
-
-            require_once ("projects.php");
-            $projects = new ProjectsDB();
-
-            $projects->getProjects();
-
-
-            ?>
 
 
 

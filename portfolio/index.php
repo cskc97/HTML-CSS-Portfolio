@@ -17,17 +17,17 @@
 <div class="container-fluid">
 
 
-<div class="row">
-    <div class="col-md-12">
-    <div class="carousel-item">
-        <img class="img-responsive" src="images/header3.jpg" alt="cover image">
-        <div class="carousel-caption d-none d-md-block">
-            <h3>Santhoshkrishnachaitanya Chelikavada</h3>
-            <p>Entrepreneur, Developer and Student</p>
+    <div class="row">
+        <div class="col-md-12">
+        <div class="carousel-item" data-ride="carousel">
+            <img class="img-responsive" src="images/header3.jpg" alt="cover image">
+            <div class="carousel-caption d-none d-md-block" style=".carousel-caption{text-align: center;">
+                <h3>Santhoshkrishnachaitanya Chelikavada</h3>
+                <p>Entrepreneur, Developer and Student</p>
+            </div>
+        </div>
         </div>
     </div>
-    </div>
-</div>
 
 
 
@@ -52,12 +52,67 @@
 
             ?>
 
+<!--            Just for testing purposes-->
+            <?php
+
+            require_once ("projects.php");
+            $projects = new ProjectsDB();
+
+            $projects->getProjects();
+
+
+            ?>
+            <?php
+
+            require_once ("projects.php");
+            $projects = new ProjectsDB();
+
+            $projects->getProjects();
+
+
+            ?>
+
+
 
     </div>
 
 
 
-</div>
+
+
+
+
+
+
+        <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Santhoshkrishnachaitanya Chelikavada
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+        </footer>
+
+
+
+
+    </div>
+
+
 
 </body>
 </html>
